@@ -1,0 +1,25 @@
+Прв дел:
+Го креираме фолдерот и репото, додаваме remote origin и push
+на првите два фајлови, го правиме канбан со сите 9 issues и ги
+ставаме 3 во делот за in progress
+
+Втор дел:
+
+13. git fetch origin
+14. git checkout issueX
+15. Ги решаваме потребните проблеми
+16. git commit -m "feature x"
+17. git push -u origin issueX
+
+ова го правиме за сите 3 гранки
+
+18. Преку гитхаб страната креираме pull requests за сите 3
+20. оставаме еден pull request без merge кој го правиме во терминалот наместо во гитхаб
+
+22. 
+git pull origin master
+git checkout master
+git merge origin 1-remove-a-task-by-name
+git push -u origin master
+
+следно logs.txt и овој фајл ги додаваме

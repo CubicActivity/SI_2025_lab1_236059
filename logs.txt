@@ -1,0 +1,16 @@
+$ git log --oneline --graph --all
+*   8851bd3 (HEAD -> master, origin/master) Merge branch '4-sort-tasks-by-priority'
+|\
+| * 8fd5e89 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) feature 3
+* |   d2669ec Merge pull request #11 from CubicActivity/2-find-all-completed-tasks
+|\ \
+| * | 6d8c7f5 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) feature 2
+| |/
+* |   33230a7 Merge pull request #10 from CubicActivity/1-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * 8fbb553 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) feature 1
+|/
+* c5351c4 Add starter code
+* de61ccc Initial commit
