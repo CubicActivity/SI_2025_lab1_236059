@@ -65,6 +65,10 @@ class TaskManager {
     // 1. Remove a task by name
     public void removeTask(String name) {
         // TODO: Implement removal logic
+        if (iterator.next().getName().equalsIgnoreCase(name)) {
+            iterator.remove();
+            return; // Remove only the first match and exit
+        }
     }
 
     // 2. Find all completed tasks
